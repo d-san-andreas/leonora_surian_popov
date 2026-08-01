@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/main.css">
-    <title>Leonora Surian Popov - Prima Attrice Nazionale di Dramma | Attrice, Cantante e Autrice</title>
+    <title>Leonora Surian Popov | Attrice, Cantante e Autrice</title>
     <link rel="canonical" href="https://leonorasurian.com/it/">
     <link rel="alternate" hreflang="hr" href="https://leonorasurian.com/">
     <link rel="alternate" hreflang="it" href="https://leonorasurian.com/it/">
@@ -13,21 +13,34 @@
     <meta property="og:title" content="Leonora Surian Popov - Prima Attrice Nazionale di Dramma">
     <meta property="og:description" content="Sito ufficiale di Leonora Surian Popov, prima attrice nazionale di dramma - attrice, cantante e autrice.">
     <meta property="og:image" content="https://leonorasurian.com/assets/img/leonora_header.webp">
+    <meta property="og:image:alt" content="Ritratto di Leonora Surian Popov">
     <meta property="og:url" content="https://leonorasurian.com/it/">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="it_IT">
     <meta property="og:locale:alternate" content="hr_HR">
     <meta property="og:site_name" content="Leonora Surian Popov">
     <meta name="description"
-        content="Benvenuti sul sito ufficiale di Leonora Surian Popov, famosa attrice, cantante e autrice croata. Scoprite la sua biografia, i progetti artistici, i ruoli teatrali e gli album musicali.">
-    <script src="/assets/navigation.js"></script>
+        content="Sito ufficiale di Leonora Surian Popov, attrice, cantante e autrice croata: biografia, ruoli teatrali, progetti artistici e gli album musicali.">
+    <script src="/assets/navigation.js" defer></script>
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Person","name":"Leonora Surian Popov","url":"https://leonorasurian.com/it/","jobTitle":"Attrice, cantante e autrice","description":"Prima attrice del Dramma Nazionale","worksFor":{"@type":"PerformingArtsTheater","name":"Teatro Nazionale Croato Ivan de Zajc","address":{"@type":"PostalAddress","addressLocality":"Rijeka","addressCountry":"HR"}},"sameAs":["https://www.instagram.com/leonorasurian/","https://www.facebook.com/people/Leonora-Surian-Popov/pfbid027JkLcD8RR683jh9dVBep4eYKDx2UzsZZ1eqsusnSkpjZ5vY42wGbiswkh2Jq6VXrl/"],"image":"https://leonorasurian.com/assets/img/leonora_header.webp"}
+    </script>
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preload" href="/assets/fonts/PlayfairDisplay-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/Lato-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Leonora Surian Popov - Prima Attrice Nazionale di Dramma">
+    <meta name="twitter:description" content="Sito ufficiale di Leonora Surian Popov, prima attrice nazionale di dramma - attrice, cantante e autrice.">
+    <meta name="twitter:image" content="https://leonorasurian.com/assets/img/leonora_header.webp">
 </head>
 
 <body>
+    <a href="#main-content" class="skip-link">Salta al contenuto</a>
     <header>
         <div class="w-full bg-primary-red-600 header-shadow z-10 relative px-5 2xl:px-0">
             <div class="max-w-7xl mx-auto py-2 flex justify-between items-center">
-                <a href="/it" class="group">
+                <a href="/it/" class="group">
                     <div
                         class="size-10 lg:size-12 rounded-full border border-off-white flex items-center justify-center group-hover:border-2 transition-all ease-in-out duration-300">
                         <span class="leading-4 font-playfair text-2xl lg:text-3xl text-off-white">LS</span>
@@ -41,8 +54,8 @@
                         <a href="#"><span class="flex gap-4 items-center">PROGETTI <img src="/assets/img/down-arrow.svg"
                                     alt="freccia verso il basso" class="size-4"></span></a>
                         <div class="dropdown-content">
-                            <a href="/it/progetti/jalta,jalta">JALTA, JALTA!</a>
-                            <a href="/it/progetti/le-migliori-barzellette-sulle-bionde" class="mt-2">I MIGLIORI
+                            <a href="/it/progetti/jalta,jalta/">JALTA, JALTA!</a>
+                            <a href="/it/progetti/le-migliori-barzellette-sulle-bionde/" class="mt-2">LE MIGLIORI
                                 BARZELLETTE SULLE
                                 BIONDE</a>
                         </div>
@@ -53,13 +66,13 @@
                 <div class="size-10 lg:size-12 lg:flex items-center hidden">
                     <div class="dropdown">
                         <a href="#">
-                            <img src="/assets/img/ita.svg" alt="bandiera croata" class="size-10">
+                            <img src="/assets/img/ita.svg" alt="bandiera italiana" class="size-10">
                         </a>
                         <div class="dropdown-content">
                             <a href="/" class="size-10 flex items-center">
                                 <img src="/assets/img/cro.svg" alt="bandiera croata" class="size-10">
                             </a>
-                            <a href="/it" class="size-10 flex items-center mt-4">
+                            <a href="/it/" class="size-10 flex items-center mt-4">
                                 <img src="/assets/img/ita.svg" alt="bandiera italiana" class="size-10">
                             </a>
                         </div>
@@ -67,8 +80,8 @@
                 </div>
                 <!-- hamburger -->
                 <div class="lg:hidden flex items-center">
-                    <button id="hamburger-btn" class="text-off-white hover:text-secondary-yellow-100 focus:outline-none"
-                        aria-label="Toggle menu" aria-expanded="false">
+                    <button id="hamburger-btn" aria-controls="mobile-menu" class="text-off-white hover:text-secondary-yellow-100"
+                        aria-label="Apri il menu" aria-expanded="false">
                         <span class="block w-6 h-0.5 bg-current my-1"></span>
                         <span class="block w-6 h-0.5 bg-current my-1"></span>
                         <span class="block w-6 h-0.5 bg-current my-1"></span>
@@ -84,7 +97,7 @@
                             class="block text-off-white hover:text-secondary-yellow-100 px-3 py-2 transition duration-200 w-full text-center">RECITAZIONE</a>
                         <a href="/it/musica/"
                             class="block text-off-white hover:text-secondary-yellow-100 px-3 py-2 transition duration-200 w-full text-center">MUSICA</a>
-                        <a href="/it/progetti/jalta,jalta"
+                        <a href="/it/progetti/jalta,jalta/"
                             class="block text-off-white hover:text-secondary-yellow-100 px-3 py-2 transition duration-200 w-full text-center">PROGETTO:
                             Jalta, Jalta</a>
                         <a href="/it/progetti/le-migliori-barzellette-sulle-bionde/"
@@ -98,7 +111,7 @@
                             <a href="/" class="opacity-50 hover:opacity-100 transition duration-200">
                                 <img src="/assets/img/cro.svg" alt="bandiera croata" class="size-8">
                             </a>
-                            <a href="/it" class="opacity-50 hover:opacity-100 transition duration-200">
+                            <a href="/it/" class="opacity-50 hover:opacity-100 transition duration-200">
                                 <img src="/assets/img/ita.svg" alt="bandiera italiana" class="size-8">
                             </a>
                         </div>
@@ -107,10 +120,10 @@
             </div>
         </div>
     </header>
-    <main>
+    <main id="main-content">
         <section>
             <div class="max-w-7xl mx-auto flex flex-col-reverse md:flex-row mb-20 px-5 2xl:px-0">
-                <img src="/assets/img/leonora_header.webp" alt="Donna con capelli folti e gioielli moderni"
+                <img width="980" height="604" src="/assets/img/leonora_header.webp" alt="Ritratto di Leonora Surian Popov con gioielli moderni"
                     class="w-full md:w-2/3 object-cover object-center">
                 <div class="relative flex md:items-center md:ml-10 py-10 md:py-0">
                     <span class="absolute top-16 -right-20 text-[7rem] text-off-white/5 font-playfair">Leonora</span>
@@ -133,7 +146,7 @@
                             tenera età al mondo dell'arte – il suo percorso da Fiume a Roma attraverso musica,
                             recitazione e danza riflette una versatilità rinascimentale che difficilmente lascia
                             indifferenti.</p>
-                        <img src="/assets/img/trudna_i_lijepa.webp" alt="Donna con capelli folti e gioielli moderni"
+                        <img loading="lazy" width="539" height="744" src="/assets/img/trudna_i_lijepa.webp" alt="Leonora Surian sul palco in elegante abito nero nello spettacolo 'Trudna i lijepa'"
                             class="w-full md:w-1/2 mx-auto object-cover object-center my-5 lg:hidden">
                         <p class="mb-5">Leonora, il cui talento supera i confini del palcoscenico, si esprime
                             straordinariamente attraverso ruoli diversi – dall'Ofelia di Shakespeare all'Evita di Webber
@@ -161,7 +174,7 @@
                 <div class="lg:p-20 lg:bg-primary-red-500">
                     <h2>Musica</h2>
                     <span class="text-off-white">Musical, jazz e ninne nanne</span>
-                    <img src="/assets/img/leonora-glazba.webp" alt="Donna con capelli folti e gioielli moderni"
+                    <img loading="lazy" width="798" height="582" src="/assets/img/leonora-glazba.webp" alt="Leonora Surian in concerto accompagnata dall'arpa"
                         class="w-full md:w-1/2 mx-auto object-cover object-center my-5 lg:hidden">
                     <p class="mt-10 mb-5">La musica è il cuore dell'espressione di Leonora, lo spazio dove la sua
                         passione per la recitazione incontra la melodia del suo cuore.</p>
@@ -175,8 +188,8 @@
                 </div>
                 <div class="lg:p-20 my-10 lg:my-0 lg:bg-primary-red-500">
                     <h2>Recitazione</h2>
-                    <span class="text-off-white">Musical, jazz e ninne nanne</span>
-                    <img src="/assets/img/evita.webp" alt="Donna con capelli folti e gioielli moderni"
+                    <span class="text-off-white">Teatro, cinema e televisione</span>
+                    <img loading="lazy" width="1080" height="719" src="/assets/img/evita.webp" alt="Leonora Surian in abito di scena oro e bianco nel musical Evita"
                         class="w-full md:w-1/2 mx-auto object-cover object-center my-5 lg:hidden">
                     <p class="mt-10 mb-5">Sin da giovanissima, Leonora viveva e respirava teatro, giocando con i
                         costumi, cantando nei corridoi e trovando rifugio dietro le quinte.</p>
@@ -187,7 +200,7 @@
                     <p class="mb-10">La sua capacità di dare vita a personaggi complessi, dalle tragedie classiche alle
                         opere drammatiche contemporanee, parla di un talento che non si accontenta di interpretazioni
                         superficiali.</p>
-                    <a href="/it/recitazione" class="primary-button">Recitazione</a>
+                    <a href="/it/recitazione/" class="primary-button">Recitazione</a>
                 </div>
                 <div class="w-full h-full bg-[url('/assets/img/evita.webp')] bg-cover bg-top hidden md:block">
                 </div>
@@ -214,10 +227,10 @@
                         </div>
                     </div>
                     <div class="md:border-l md:border-off-white md:px-10 py-5 flex flex-col justify-between">
-                        <h3>I Migliori barzellette sulle bionde</h3>
+                        <h3>Le migliori barzellette sulle bionde</h3>
                         <div>
                             <p class="mt-10 mb-5">Leonora Surian incanta con l'umorismo nel suo libro "Il bello di
-                                essere bionda - I Migliori barzellette sulle bionde", una raccolta che trasmette un
+                                essere bionda - Le migliori barzellette sulle bionde", una raccolta che trasmette un
                                 messaggio importante: il sorriso è un rimedio universale.</p>
                             <p class="mb-5">Con circa 500 divertenti racconti, questa bionda, affermata nella
                                 recitazione e nella musica, demolisce gli stereotipi, invitando tutti, anche le bionde,
@@ -241,7 +254,7 @@
                 <p>LEONORA SURIAN POPOV</p>
                 <div class="border-b border-off-white w-40"></div>
                 <div class="flex gap-5 pt-5">
-                    <a href="https://www.instagram.com/leonorasurian/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/insta.svg"
+                    <a href="https://www.instagram.com/leonorasurian/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/img/insta.svg"
                             alt="logo di Instagram" class="size-6 fill-off-white hover:fill-secondary-yellow-100"></a>
                     <a href="https://www.facebook.com/people/Leonora-Surian-Popov/pfbid027JkLcD8RR683jh9dVBep4eYKDx2UzsZZ1eqsusnSkpjZ5vY42wGbiswkh2Jq6VXrl/" target="_blank" rel="noopener noreferrer"><img
                             src="/assets/img/face.svg" alt="logo di Facebook"

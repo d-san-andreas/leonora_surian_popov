@@ -12,18 +12,28 @@
     <link rel="alternate" hreflang="x-default" href="https://leonorasurian.com/projekti/jalta,jalta/">
     <meta property="og:title" content="Jalta, Jalta! u Izvedbi Obitelji Surian">
     <meta property="og:description" content="Mjuzikl Jalta, Jalta! u komornoj izvedbi obitelji Surian.">
-    <meta property="og:image" content="https://leonorasurian.com/assets/img/leonora_header.webp">
+    <meta property="og:image" content="https://leonorasurian.com/assets/img/jalta_cover.webp">
+    <meta property="og:image:alt" content="Jalta, Jalta! u izvedbi obitelji Surian - naslovna fotografija">
     <meta property="og:url" content="https://leonorasurian.com/projekti/jalta,jalta/">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="hr_HR">
     <meta property="og:locale:alternate" content="it_IT">
     <meta property="og:site_name" content="Leonora Surian Popov">
     <meta name="description"
-        content='Otkrijte jedinstvenu izvedbu mjuzikla "Jalta, Jalta!" u adaptaciji Leonore Surian Popov i njezine talentirane obitelji. Pročitajte o ovoj komornoj verziji poznatog mjuzikla, uživajte u video isječcima i saznajte više o ovoj posebnoj glazbeno-scenskoj obitelji.'>
-    <script src="/assets/navigation.js"></script>
+        content="Otkrijte mjuzikl 'Jalta, Jalta!' u adaptaciji Leonore Surian Popov - jedinstvena komorna izvedba obitelji Surian koja osvaja publiku diljem Hrvatske.">
+    <script src="/assets/navigation.js" defer></script>
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preload" href="/assets/fonts/PlayfairDisplay-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/Lato-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jalta, Jalta! u Izvedbi Obitelji Surian">
+    <meta name="twitter:description" content="Mjuzikl Jalta, Jalta! u komornoj izvedbi obitelji Surian.">
+    <meta name="twitter:image" content="https://leonorasurian.com/assets/img/jalta_cover.webp">
 </head>
 
 <body>
+    <a href="#main-content" class="skip-link">Preskoči na sadržaj</a>
     <header>
         <div class="w-full bg-primary-red-600 header-shadow z-10 relative px-5 2xl:px-0">
             <div class="max-w-7xl mx-auto py-2 flex justify-between items-center">
@@ -41,8 +51,8 @@
                         <a href="#"><span class="flex gap-4 items-center">PROJEKTI <img src="/assets/img/down-arrow.svg"
                                     alt="down arrow svg" class="size-4"></span></a>
                         <div class="dropdown-content">
-                            <a href="/projekti/jalta,jalta">JALTA, JALTA!</a>
-                            <a href="/projekti/najbolji-vicevi-o-plavusama" class="mt-2">NAJBOLJI VICEVI O PLAVUŠAMA</a>
+                            <a href="/projekti/jalta,jalta/">JALTA, JALTA!</a>
+                            <a href="/projekti/najbolji-vicevi-o-plavusama/" class="mt-2">NAJBOLJI VICEVI O PLAVUŠAMA</a>
                         </div>
                     </div>
                     <a href="/press/">PRESS</a>
@@ -65,7 +75,7 @@
                 </div>
                 <!-- hamburger -->
                 <div class="lg:hidden flex items-center">
-                    <button id="hamburger-btn" class="text-off-white hover:text-secondary-yellow-100 focus:outline-none"
+                    <button id="hamburger-btn" aria-controls="mobile-menu" class="text-off-white hover:text-secondary-yellow-100"
                         aria-label="Toggle menu" aria-expanded="false">
                         <span class="block w-6 h-0.5 bg-current my-1"></span>
                         <span class="block w-6 h-0.5 bg-current my-1"></span>
@@ -108,7 +118,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main id="main-content">
         <section>
             <div
                 class="bg-[url('/assets/img/jalta_cover.webp')] h-[50svh] lg:h-[30rem] bg-cover bg-top bg-no-repeat relative z-0">
@@ -123,28 +133,28 @@
         <section>
             <div class="max-w-7xl mx-auto my-20 grid lg:grid-cols-2 gap-10 min-h-[40rem] px-5 2xl:px-0">
                 <div class="relative h-auto hidden lg:block">
-                    <img src="/assets/img/leonora.webp"
+                    <img width="399" height="600" src="/assets/img/leonora.webp"
                         alt="Portret Leonore Surian, glumice, u bijeloj haljini s cvjetnim uzorkom i bijelom trakom u kosi."
                         class="absolute w-80 h-auto top-0 left-0 shadow-md shadow-primary-red-300">
                     <div class="absolute w-52 h-[30rem] bg-primary-red-300 left-40 top-24 -z-10"></div>
-                    <img src="/assets/img/gio.webp"
+                    <img loading="lazy" width="426" height="640" src="/assets/img/gio.webp"
                         alt="Portret Gia Suriana, u bijeloj košulji s prekrštenim rukama, ozbiljan izraz lica."
                         class="absolute w-80 h-auto top-44 right-0 shadow-md shadow-primary-red-300">
                 </div>
                 <div>
-                    <h2>Jalta Jalta u izvedbi obitelji</br>Surian - Ona, Tata...</h2>
+                    <h2>Jalta Jalta u izvedbi obitelji<br>Surian - Ona, Tata...</h2>
                     <p class="mt-8">U adaptaciji Leonore Surian, dramske i glazbene umjetnice, te u režiji Mojce Horvat,
                         slavna Jalta, Jalta malo je prerađena i malo skraćena kako bi doista odgovarala najavljenom tipu
                         komornog mjuzikla koji je toliko mali da se izvodi kod kuće, u sobi, i kojime se svi članovi
                         obitelji dobro zabavljaju dok pjevaju i glume za goste i prijatelje.</p>
-                    <img src="/assets/img/leonora.webp"
+                    <img loading="lazy" width="399" height="600" src="/assets/img/leonora.webp"
                         alt="Portret Leonore Surian, glumice, u bijeloj haljini s cvjetnim uzorkom i bijelom trakom u kosi."
                         class="shadow shadow-primary-red-400 w-full md:w-1/2 mx-auto object-cover object-center my-5 lg:hidden">
                     <p class="mt-5">Raspjevana obitelj Surian, predvođena ocem Giorgiom Surianom, proslavljenim opernim
                         pjevačem, kćerkom, dramskom i glazbenom umjetnicom Leonorom Surian i dva perspektivna sina:
                         Giorgio Surian junior i Stefano Surian, ostvarila je jedan jedinstveni događaj, kakvog još nije
                         bilo na hrvatskoj sceni.</p>
-                    <img src="/assets/img/gio.webp"
+                    <img loading="lazy" width="426" height="640" src="/assets/img/gio.webp"
                         alt="Portret Gia Suriana, u bijeloj košulji s prekrštenim rukama, ozbiljan izraz lica."
                         class="shadow shadow-primary-red-400 w-full md:w-1/2 mx-auto object-cover object-center my-5 lg:hidden">
                     <p class="mt-5">Leonora Surian je preuredila i adaptirala tekst poznatog mjuzikla „Jalta, Jalta!” i
@@ -159,22 +169,22 @@
                         te umjetničke obitelji, se oduševljen odazvao izazovu, i uz pomoć priznate koreografkinje i
                         režiserke Mojce Horvat, zajedničkim snagama su ostvarili ovaj projekt kojeg s ponosom
                         prezentiraju po cijeloj Hrvatskoj.</p>
-                    <img src="/assets/img/gio_jr.webp"
+                    <img loading="lazy" width="426" height="640" src="/assets/img/gio_jr.webp"
                         alt="Portret mlađeg muškarca, Gia Suriana Jr., u bijeloj košulji, nasmijan, s rukama u džepovima."
                         class="shadow shadow-primary-red-400 w-full md:w-1/2 mx-auto object-cover object-center my-5 lg:hidden">
                     <p class="mt-5">Svojim šarmom, jednostavnošću i prirodnošću, uz malo rekvizite, i skoro ništa
                         scenografije, obitelj Surian uspijeva osvojiti i uklopiti publiku te ju učiniti sastavnim i
                         neophodnim dijelom predstave.</p>
-                    <img src="/assets/img/stefano.webp"
+                    <img loading="lazy" width="426" height="640" src="/assets/img/stefano.webp"
                         alt="Portret Stefana Suriana, glumca, u elegantnom odijelu s bijelom košuljom i leptir mašnom."
                         class="shadow shadow-primary-red-400 w-full md:w-1/2 mx-auto object-cover object-center my-5 lg:hidden">
                 </div>
                 <div class="relative h-auto hidden lg:block">
-                    <img src="/assets/img/gio_jr.webp"
+                    <img loading="lazy" width="426" height="640" src="/assets/img/gio_jr.webp"
                         alt="Portret mlađeg muškarca, Gia Suriana Jr., u bijeloj košulji, nasmijan, s rukama u džepovima."
                         class="absolute w-80 h-auto top-0 right-0 shadow-md shadow-primary-red-300">
                     <div class="absolute w-52 h-[30rem] bg-primary-red-300 left-48 top-20 -z-10"></div>
-                    <img src="/assets/img/stefano.webp"
+                    <img loading="lazy" width="426" height="640" src="/assets/img/stefano.webp"
                         alt="Portret Stefana Suriana, glumca, u elegantnom odijelu s bijelom košuljom i leptir mašnom."
                         class="absolute w-80 h-auto top-40 left-0 shadow-md shadow-primary-red-300">
                 </div>
@@ -184,7 +194,7 @@
             <div class="max-w-7xl mx-auto relative lg:my-40 flex items-start px-5 2xl:px-0">
                 <div class="absolute bg-primary-red-400 h-[33rem] w-96 -top-5 -left-5 hidden lg:block"></div>
                 <div class="w-[50rem] relative bg-white p-0 hidden lg:block">
-                    <img src="/assets/img/obitelj_surian.webp"
+                    <img loading="lazy" width="600" height="399" src="/assets/img/obitelj_surian.webp"
                         alt="Obiteljski portret obitelji Surian. Leonora Surian u bijeloj haljini s cvjetnim uzorkom stoji u sredini, okružena članovima svoje obitelji. S lijeve strane je Stefano Surian u elegantnom odijelu, a s desne strane su Gio Surian i Gio Jr., obojica u bijelim košuljama. Stefano nosi krznenu kapu."
                         class="shadow shadow-primary-red-400 w-full h-full object-cover object-center">
                 </div>
@@ -194,7 +204,7 @@
                         nije zabilježena na pozornici, a da se publiku pitalo obitelj Surian bi do jutra ostala na
                         bini....Takav prijem publike nije ostavio ravnodušnim članove ove raspjevane obitelji, pa su
                         Labinjane na kraju počastili s po jednom glazbenom solo točkom od svakog člana obitelji...."</p>
-                    <img src="/assets/img/obitelj_surian.webp"
+                    <img loading="lazy" width="600" height="399" src="/assets/img/obitelj_surian.webp"
                         alt="Obiteljski portret obitelji Surian. Leonora Surian u bijeloj haljini s cvjetnim uzorkom stoji u sredini, okružena članovima svoje obitelji. S lijeve strane je Stefano Surian u elegantnom odijelu, a s desne strane su Gio Surian i Gio Jr., obojica u bijelim košuljama. Stefano nosi krznenu kapu."
                         class="shadow shadow-primary-red-400 w-full md:w-1/2 mx-auto object-cover object-center my-5 lg:hidden">
                     <p class="mt-5 text-right">NAŠI FOJI Nenad Čakić</p>
@@ -205,14 +215,14 @@
         <section>
             <div class="max-w-7xl mx-auto grid grid-cols-1 my-20 gap-10">
                 <div class="w-full aspect-video">
-                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/Q6B-8Pmd57U?si=LfGwVhe2tjp7rtsY"
-                        title="YouTube video player" frameborder="0"
+                    <iframe loading="lazy" class="w-full h-full" src="https://www.youtube.com/embed/Q6B-8Pmd57U?si=LfGwVhe2tjp7rtsY"
+                        title="Video: Jalta, Jalta! obitelji Surian – trailer" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div class="w-full aspect-video">
-                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/Tl5flO5KUzc?si=lrhP7_QMtTsye2Fi"
-                        title="YouTube video player" frameborder="0"
+                    <iframe loading="lazy" class="w-full h-full" src="https://www.youtube.com/embed/Tl5flO5KUzc?si=lrhP7_QMtTsye2Fi"
+                        title="Video: Jalta, Jalta! obitelji Surian – isječak iz predstave 1" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
@@ -229,22 +239,22 @@
                         Filipovnih prije nje...A njen zvonki sopran, koji bez ozvučenja s lakoćom i prirodno dolazi do
                         svakog kutka gledališta, ravnopravno se noseći sa snažnim muškim glasovima sjajnih Suriana,
                         najljepši je i najtopliji od svih koje sam slušala u ulozi Nine Filipovne..."</p>
-                    <img src="/assets/img/jalta_surian_ples.webp" alt="Leonora Surian pleše u predstavi"
+                    <img loading="lazy" width="1600" height="1066" src="/assets/img/jalta_surian_ples.webp" alt="Leonora Surian pleše u predstavi"
                         class="shadow shadow-primary-red-400 w-full md:w-1/2 mx-auto object-cover object-center my-5 lg:hidden">
                     <p class="mt-5 text-right"> NOVI LIST 18.11.2010.</p>
 
                 </div>
                 <div class="absolute bg-primary-red-400 h-[36rem] w-40 -top-5 -right-5 hidden lg:block"></div>
                 <div class="w-[50rem] relative hidden lg:block">
-                    <img src="/assets/img/jalta_surian_ples.webp" alt="Leonora Surian pleše u predstavi">
+                    <img loading="lazy" width="1600" height="1066" src="/assets/img/jalta_surian_ples.webp" alt="Leonora Surian pleše u predstavi">
                 </div>
             </div>
         </section>
         <section>
             <div class="max-w-7xl mx-auto grid grid-cols-1 my-20 gap-10">
                 <div class="w-full aspect-video">
-                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/V5d_kZdDIXs?si=ashMSzbYBOIwYjMG"
-                        title="YouTube video player" frameborder="0"
+                    <iframe loading="lazy" class="w-full h-full" src="https://www.youtube.com/embed/V5d_kZdDIXs?si=ashMSzbYBOIwYjMG"
+                        title="Video: Jalta, Jalta! obitelji Surian – isječak iz predstave 2" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
@@ -254,18 +264,18 @@
             <div class="max-w-7xl mx-auto relative lg:my-40 flex items-start px-5 2xl:px-0">
                 <div class="absolute bg-primary-red-400 h-72 w-96 -top-5 -left-5 hidden lg:block"></div>
                 <div class="w-[45rem] relative bg-white p-0 hidden lg:block">
-                    <img src="/assets/img/jalta_surian_ples2.webp" alt="Leonora Surian na sceni tijekom izvedbe"
+                    <img loading="lazy" width="1200" height="736" src="/assets/img/jalta_surian_ples2.webp" alt="Leonora Surian na sceni tijekom izvedbe"
                         class="shadow shadow-primary-red-400 w-full h-full object-cover object-center">
                 </div>
                 <div
-                    class="relative lg:w-[40.5rem] lg:p-20 lg:bg-primary-red-500 z-10 lg:mt-16 lg:-ml-10 slg:hadow lg:shadow-primary-red-500">
+                    class="relative lg:w-[40.5rem] lg:p-20 lg:bg-primary-red-500 z-10 lg:mt-16 lg:-ml-10 lg:shadow lg:shadow-primary-red-500">
                     <p>"…Raspjevani Suriani osvojili su gotovo 400 gledatelja već svojom pojavom jer- kako je netko
                         rekao- ovakvu predstavu nismo gledali od nastupa “Family von Trapp”! Toliko emocija i pozitivne
                         energije, lijepe glazbe k tome sjajno pjevanje, a sve uokvireno pokretom i promišljenim režijom
                         koja omogućava razigranu izvedbu na svega nekoliko kvadrata podija pozornice- prava su rijetkost
                         ne samo kod nas. Svojim nastupom, Suriani su na gledalište prenjeli duh “Jalte”, želju da čitav
                         svijet postane Zelena livada, na kojoj vlada ljubav i mir..."</p>
-                    <img src="/assets/img/jalta_surian_ples2.webp" alt="Leonora Surian na sceni tijekom izvedbe"
+                    <img loading="lazy" width="1200" height="736" src="/assets/img/jalta_surian_ples2.webp" alt="Leonora Surian na sceni tijekom izvedbe"
                         class="shadow shadow-primary-red-400 w-full md:w-1/2 mx-auto object-cover object-center my-5 lg:hidden">
                     <p class="mt-5 text-right">NOVI LIST 23.11.2010. S. Hribar</p>
                 </div>
@@ -276,8 +286,8 @@
         <section>
             <div class="max-w-7xl mx-auto grid grid-cols-1 my-20 gap-10">
                 <div class="w-full aspect-video">
-                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/uZ-hiHYxPew?si=MX3QD5O0JCxN5mF_"
-                        title="YouTube video player" frameborder="0"
+                    <iframe loading="lazy" class="w-full h-full" src="https://www.youtube.com/embed/uZ-hiHYxPew?si=MX3QD5O0JCxN5mF_"
+                        title="Video: Jalta, Jalta! obitelji Surian – isječak iz predstave 3" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
@@ -290,7 +300,7 @@
                 <p>LEONORA SURIAN POPOV</p>
                 <div class="border-b border-off-white w-40"></div>
                 <div class="flex gap-5 pt-5">
-                    <a href="https://www.instagram.com/leonorasurian/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/insta.svg"
+                    <a href="https://www.instagram.com/leonorasurian/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/img/insta.svg"
                             alt="instagram logo svg" class="size-6 fill-off-white hover:fill-secondary-yellow-100"></a>
                     <a href="https://www.facebook.com/people/Leonora-Surian-Popov/pfbid027JkLcD8RR683jh9dVBep4eYKDx2UzsZZ1eqsusnSkpjZ5vY42wGbiswkh2Jq6VXrl/" target="_blank" rel="noopener noreferrer"><img
                             src="/assets/img/face.svg" alt="facebook logo svg"

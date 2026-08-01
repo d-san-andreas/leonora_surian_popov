@@ -1,8 +1,9 @@
 {
+  "scripts": {
+    "dev": "tailwindcss -i ./assets/input.css -o ./public/assets/main.css --watch",
+    "build": "tailwindcss -i ./assets/input.css -o ./public/assets/main.css --minify"
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.3"
-  },
-  "dependencies": {
-    "lightbox2": "^2.11.4"
   }
 }
