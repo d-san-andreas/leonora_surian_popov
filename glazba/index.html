@@ -5,25 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/main.css">
-    <title>Glazbena Karijera Leonore Surian Popov - Mjuzikl, Jazz i Uspavanke</title>
+    <title>Glazba Leonore Surian Popov - Mjuzikl, Jazz i Uspavanke</title>
     <link rel="canonical" href="https://leonorasurian.com/glazba/">
     <link rel="alternate" hreflang="hr" href="https://leonorasurian.com/glazba/">
     <link rel="alternate" hreflang="it" href="https://leonorasurian.com/it/musica/">
     <link rel="alternate" hreflang="x-default" href="https://leonorasurian.com/glazba/">
     <meta property="og:title" content="Glazbena Karijera Leonore Surian Popov">
     <meta property="og:description" content="Glazbeni albumi, koncerti i nastupe Leonore Surian Popov.">
-    <meta property="og:image" content="https://leonorasurian.com/assets/img/leonora_header.webp">
+    <meta property="og:image" content="https://leonorasurian.com/assets/img/leonora-glazba.webp">
+    <meta property="og:image:alt" content="Leonora Surian Popov tijekom glazbenog nastupa">
     <meta property="og:url" content="https://leonorasurian.com/glazba/">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="hr_HR">
     <meta property="og:locale:alternate" content="it_IT">
     <meta property="og:site_name" content="Leonora Surian Popov">
     <meta name="description"
-        content="Otkrijte glazbenu karijeru Leonore Surian Popov, poznate hrvatske glumice i pjevačice. Poslušajte njezine albume 'Nanita', 'Bijeli Božić' i 'Moj mali svijet' te saznajte više o njezinim glazbenim projektima i nastupima.">
-    <script src="/assets/navigation.js"></script>
+        content="Glazbena karijera Leonore Surian Popov, hrvatske glumice i pjevačice. Poslušajte albume 'Nanita', 'Bijeli Božić' i 'Moj mali svijet' te njezine nastupe.">
+    <script src="/assets/navigation.js" defer></script>
+    <script src="/assets/app.js" defer></script>
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preload" href="/assets/fonts/PlayfairDisplay-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/Lato-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Glazbena Karijera Leonore Surian Popov">
+    <meta name="twitter:description" content="Glazbeni albumi, koncerti i nastupe Leonore Surian Popov.">
+    <meta name="twitter:image" content="https://leonorasurian.com/assets/img/leonora-glazba.webp">
 </head>
 
 <body>
+    <a href="#main-content" class="skip-link">Preskoči na sadržaj</a>
     <header>
         <div class="w-full bg-primary-red-600 header-shadow z-10 relative px-5 2xl:px-0">
             <div class="max-w-7xl mx-auto py-2 flex justify-between items-center">
@@ -41,8 +52,8 @@
                         <a href="#"><span class="flex gap-4 items-center">PROJEKTI <img src="/assets/img/down-arrow.svg"
                                     alt="down arrow svg" class="size-4"></span></a>
                         <div class="dropdown-content">
-                            <a href="/projekti/jalta,jalta">JALTA, JALTA!</a>
-                            <a href="/projekti/najbolji-vicevi-o-plavusama" class="mt-2">NAJBOLJI VICEVI O PLAVUŠAMA</a>
+                            <a href="/projekti/jalta,jalta/">JALTA, JALTA!</a>
+                            <a href="/projekti/najbolji-vicevi-o-plavusama/" class="mt-2">NAJBOLJI VICEVI O PLAVUŠAMA</a>
                         </div>
                     </div>
                     <a href="/press/">PRESS</a>
@@ -65,7 +76,7 @@
                 </div>
                 <!-- hamburger -->
                 <div class="lg:hidden flex items-center">
-                    <button id="hamburger-btn" class="text-off-white hover:text-secondary-yellow-100 focus:outline-none"
+                    <button id="hamburger-btn" aria-controls="mobile-menu" class="text-off-white hover:text-secondary-yellow-100"
                         aria-label="Toggle menu" aria-expanded="false">
                         <span class="block w-6 h-0.5 bg-current my-1"></span>
                         <span class="block w-6 h-0.5 bg-current my-1"></span>
@@ -108,14 +119,14 @@
             </div>
         </div>
     </header>
-    <main>
+    <main id="main-content">
         <section>
             <div
                 class="bg-[url('/assets/img/glazba.webp')] h-[50svh] lg:h-[34rem] bg-cover bg-top bg-no-repeat relative z-0">
                 <div class="absolute inset-0 bg-black/50"></div>
                 <div class="relative max-w-7xl mx-auto px-5 2xl:px-0">
                     <span class="h1-decoration">PJEVAČICA</span>
-                    <h1 class="relative pt-32">PJEVAČICA</h1>
+                    <h1 class="relative pt-32">PJEVAČICA<span class="sr-only"> – Leonora Surian Popov</span></h1>
                     <span class="h1-subheader">Mjuzikl, jazz i uspavanke</span>
                 </div>
             </div>
@@ -186,24 +197,24 @@
         <section>
             <div class="grid lg:grid-cols-4 gap-10 max-w-7xl mx-auto my-20">
                 <div class="w-full lg:aspect-square">
-                    <img src="/assets/img/gianni_i_prijatelji.webp" class="w-full aspect-square object-cover object-top"
+                    <img width="426" height="640" src="/assets/img/gianni_i_prijatelji.webp" class="w-full aspect-square object-cover object-top"
                         alt="Leonora Surian pjeva na koncertu 'Gianni i prijatelji' uz bend na pozornici.">
                     <p class="text-right pr-5 pt-2">Gala koncert Gianni i prijatelji</p>
                 </div>
                 <div class="w-full lg:aspect-square">
-                    <img src="/assets/img/promocija_moj_mali_svijet.webp"
+                    <img loading="lazy" width="600" height="400" src="/assets/img/promocija_moj_mali_svijet.webp"
                         class="w-full aspect-square object-cover object-top"
                         alt="Leonora Surian nastupa na promociji albuma 'Moj mali svijet', okružena glazbenicima.">
                     <p class="text-right pr-5 pt-2">Promocija albuma “Moj mali svijet”</p>
                 </div>
                 <div class="w-full lg:aspect-square">
-                    <img src="/assets/img/humanitarni_koncert_hnk_rijeka.webp"
+                    <img loading="lazy" width="600" height="400" src="/assets/img/humanitarni_koncert_hnk_rijeka.webp"
                         class="w-full aspect-square object-cover object-top"
                         alt="Leonora Surian pjeva na humanitarnom koncertu u HNK Rijeka, okružena orkestrom i zborom">
                     <p class="text-right pr-5 pt-2">Humanitarni koncert u HNK u Rijeci</p>
                 </div>
                 <div class="w-full lg:aspect-square">
-                    <img src="/assets/img/nastup_pb_club.webp" class="w-full aspect-square object-cover object-top"
+                    <img loading="lazy" width="600" height="450" src="/assets/img/nastup_pb_club.webp" class="w-full aspect-square object-cover object-top"
                         alt="Leonora Surian nastupa u PB Clubu s bendom, okružena publikom.">
                     <p class="text-right pr-5 pt-2">Nastup u pb club</p>
                 </div>
@@ -212,44 +223,44 @@
         <section>
             <div class="max-w-7xl mx-auto grid grid-cols-1 my-20 gap-10">
                 <div class="w-full aspect-video">
-                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/ygttfpYiA_8?si=Ems2B3OV2CoM3o9d"
-                        title="YouTube video player" frameborder="0"
+                    <iframe loading="lazy" class="w-full h-full" src="https://www.youtube.com/embed/ygttfpYiA_8?si=Ems2B3OV2CoM3o9d"
+                        title="Video: Leonora Surian Popov – glazbeni nastup 1" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div class="w-full aspect-video">
-                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/sp8JoLvTzBs?si=BrJex-wWtR-92ogc"
-                        title="YouTube video player" frameborder="0"
+                    <iframe loading="lazy" class="w-full h-full" src="https://www.youtube.com/embed/sp8JoLvTzBs?si=BrJex-wWtR-92ogc"
+                        title="Video: Leonora Surian Popov – glazbeni nastup 2" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div class="w-full aspect-video">
-                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/wFgdsGun-WI?si=1SjRlUvhaoTYloWY"
-                        title="YouTube video player" frameborder="0"
+                    <iframe loading="lazy" class="w-full h-full" src="https://www.youtube.com/embed/wFgdsGun-WI?si=1SjRlUvhaoTYloWY"
+                        title="Video: Leonora Surian Popov – glazbeni nastup 3" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div class="w-full aspect-video">
-                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/aRxddSj1mIk?si=A41DLTxNYWjFBuPJ"
-                        title="YouTube video player" frameborder="0"
+                    <iframe loading="lazy" class="w-full h-full" src="https://www.youtube.com/embed/aRxddSj1mIk?si=A41DLTxNYWjFBuPJ"
+                        title="Video: Leonora Surian Popov – glazbeni nastup 4" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div class="w-full aspect-video">
-                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/cjK3alAMEgE?si=-nyEKT4ToDSDv-R1"
-                        title="YouTube video player" frameborder="0"
+                    <iframe loading="lazy" class="w-full h-full" src="https://www.youtube.com/embed/cjK3alAMEgE?si=-nyEKT4ToDSDv-R1"
+                        title="Video: Leonora Surian Popov – glazbeni nastup 5" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div class="w-full aspect-video">
-                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/1mhP54zDHiQ?si=XwLiYZHzXcf8zp7n"
-                        title="YouTube video player" frameborder="0"
+                    <iframe loading="lazy" class="w-full h-full" src="https://www.youtube.com/embed/1mhP54zDHiQ?si=XwLiYZHzXcf8zp7n"
+                        title="Video: Leonora Surian Popov – glazbeni nastup 6" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div class="w-full aspect-video">
-                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/EfzgpvxWY4A"
-                        title="YouTube video player" frameborder="0"
+                    <iframe loading="lazy" class="w-full h-full" src="https://www.youtube.com/embed/EfzgpvxWY4A"
+                        title="Video: Leonora Surian Popov – glazbeni nastup 7" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
@@ -259,8 +270,8 @@
         <!-- Modal 1 -->
         <div id="modal1" class="fixed inset-0 bg-primary-red-600/70 flex items-center justify-center hidden">
             <div class="bg-primary-red-600 p-5 rounded-lg shadow-lg relative">
-                <iframe class="h-96 aspect-video" src="https://www.youtube.com/embed/loiqhXA88_w?si=rrNLvFo4WECpMXSQ"
-                    title="YouTube video player" frameborder="0"
+                <iframe loading="lazy" class="h-96 aspect-video" src="https://www.youtube.com/embed/loiqhXA88_w?si=rrNLvFo4WECpMXSQ"
+                    title="Video: Nanita – uspavanka Leonore Surian Popov" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <button id="closeModal1"
@@ -271,8 +282,8 @@
         <!-- Modal 2 -->
         <div id="modal2" class="fixed inset-0 bg-primary-red-600/70 flex items-center justify-center hidden">
             <div class="bg-primary-red-600 p-5 rounded-lg shadow-lg relative">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Tnvar-IyY9Q?si=bLj2n695sQ8hseOG"
-                    title="YouTube video player" frameborder="0"
+                <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/Tnvar-IyY9Q?si=bLj2n695sQ8hseOG"
+                    title="Video: Bijeli Božić – Leonora Surian Popov i Vlasta Hribar" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <button id="closeModal2"
@@ -283,8 +294,8 @@
         <!-- Modal 3 -->
         <div id="modal3" class="fixed inset-0 bg-primary-red-600/70 flex items-center justify-center hidden">
             <div class="bg-primary-red-600 p-5 rounded-lg shadow-lg relative">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/lD_KUcY6jac?si=Px0NPLcxYtB36TJI"
-                    title="YouTube video player" frameborder="0"
+                <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/lD_KUcY6jac?si=Px0NPLcxYtB36TJI"
+                    title="Video: Moj mali svijet – Leonora Surian Popov" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <button id="closeModal3"
@@ -298,7 +309,7 @@
                 <p>LEONORA SURIAN POPOV</p>
                 <div class="border-b border-off-white w-40"></div>
                 <div class="flex gap-5 pt-5">
-                    <a href="https://www.instagram.com/leonorasurian/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/insta.svg"
+                    <a href="https://www.instagram.com/leonorasurian/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/img/insta.svg"
                             alt="instagram logo svg" class="size-6 fill-off-white hover:fill-secondary-yellow-100"></a>
                     <a href="https://www.facebook.com/people/Leonora-Surian-Popov/pfbid027JkLcD8RR683jh9dVBep4eYKDx2UzsZZ1eqsusnSkpjZ5vY42wGbiswkh2Jq6VXrl/" target="_blank" rel="noopener noreferrer"><img
                             src="/assets/img/face.svg" alt="facebook logo svg"
@@ -307,35 +318,6 @@
             </div>
         </div>
     </footer>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const modals = [
-                { openButton: 'openModal1', modal: 'modal1', closeButton: 'closeModal1' },
-                { openButton: 'openModal2', modal: 'modal2', closeButton: 'closeModal2' },
-                { openButton: 'openModal3', modal: 'modal3', closeButton: 'closeModal3' },
-            ];
-
-            modals.forEach(({ openButton, modal, closeButton }) => {
-                const openBtn = document.getElementById(openButton);
-                const modalEl = document.getElementById(modal);
-                const closeBtn = document.getElementById(closeButton);
-
-                openBtn.addEventListener('click', () => {
-                    modalEl.classList.remove('hidden');
-                });
-
-                closeBtn.addEventListener('click', () => {
-                    modalEl.classList.add('hidden');
-                });
-
-                window.addEventListener('click', (event) => {
-                    if (event.target === modalEl) {
-                        modalEl.classList.add('hidden');
-                    }
-                });
-            });
-        });
-    </script>
 </body>
 
 </html>

@@ -12,22 +12,32 @@
     <link rel="alternate" hreflang="x-default" href="https://leonorasurian.com/kontakt/">
     <meta property="og:title" content="Contatti - Leonora Surian Popov">
     <meta property="og:description" content="Contatta Leonora Surian Popov.">
-    <meta property="og:image" content="https://leonorasurian.com/assets/img/leonora_header.webp">
+    <meta property="og:image" content="https://leonorasurian.com/assets/img/contact.webp">
+    <meta property="og:image:alt" content="Contatta Leonora Surian Popov">
     <meta property="og:url" content="https://leonorasurian.com/it/contatti/">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="it_IT">
     <meta property="og:locale:alternate" content="hr_HR">
     <meta property="og:site_name" content="Leonora Surian Popov">
     <meta name="description"
-        content="Hai domande per Leonora Surian Popov? Invia un messaggio tramite il modulo di contatto. Leonora sarà lieta di rispondere alle tue domande sul suo lavoro e sui suoi progetti.">
-    <script src="/assets/navigation.js"></script>
+        content="Hai domande per Leonora Surian Popov? Contattala: sarà lieta di rispondere alle tue domande sul suo lavoro e sui suoi progetti artistici.">
+    <script src="/assets/navigation.js" defer></script>
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preload" href="/assets/fonts/PlayfairDisplay-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/Lato-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contatti - Leonora Surian Popov">
+    <meta name="twitter:description" content="Contatta Leonora Surian Popov.">
+    <meta name="twitter:image" content="https://leonorasurian.com/assets/img/contact.webp">
 </head>
 
 <body>
+    <a href="#main-content" class="skip-link">Salta al contenuto</a>
     <header>
         <div class="w-full bg-primary-red-600 header-shadow z-10 relative px-5 2xl:px-0">
             <div class="max-w-7xl mx-auto py-2 flex justify-between items-center">
-                <a href="/it" class="group">
+                <a href="/it/" class="group">
                     <div
                         class="size-10 lg:size-12 rounded-full border border-off-white flex items-center justify-center group-hover:border-2 transition-all ease-in-out duration-300">
                         <span class="leading-4 font-playfair text-2xl lg:text-3xl text-off-white">LS</span>
@@ -41,8 +51,8 @@
                         <a href="#"><span class="flex gap-4 items-center">PROGETTI <img src="/assets/img/down-arrow.svg"
                                     alt="freccia verso il basso" class="size-4"></span></a>
                         <div class="dropdown-content">
-                            <a href="/it/progetti/jalta,jalta">JALTA, JALTA!</a>
-                            <a href="/it/progetti/le-migliori-barzellette-sulle-bionde" class="mt-2">I MIGLIORI
+                            <a href="/it/progetti/jalta,jalta/">JALTA, JALTA!</a>
+                            <a href="/it/progetti/le-migliori-barzellette-sulle-bionde/" class="mt-2">LE MIGLIORI
                                 BARZELLETTE SULLE
                                 BIONDE</a>
                         </div>
@@ -53,7 +63,7 @@
                 <div class="size-10 lg:size-12 lg:flex items-center hidden">
                     <div class="dropdown">
                         <a href="#">
-                            <img src="/assets/img/ita.svg" alt="bandiera croata" class="size-10">
+                            <img src="/assets/img/ita.svg" alt="bandiera italiana" class="size-10">
                         </a>
                         <div class="dropdown-content">
                             <a href="/kontakt/" class="size-10 flex items-center">
@@ -67,8 +77,8 @@
                 </div>
                 <!-- hamburger -->
                 <div class="lg:hidden flex items-center">
-                    <button id="hamburger-btn" class="text-off-white hover:text-secondary-yellow-100 focus:outline-none"
-                        aria-label="Toggle menu" aria-expanded="false">
+                    <button id="hamburger-btn" aria-controls="mobile-menu" class="text-off-white hover:text-secondary-yellow-100"
+                        aria-label="Apri il menu" aria-expanded="false">
                         <span class="block w-6 h-0.5 bg-current my-1"></span>
                         <span class="block w-6 h-0.5 bg-current my-1"></span>
                         <span class="block w-6 h-0.5 bg-current my-1"></span>
@@ -84,7 +94,7 @@
                             class="block text-off-white hover:text-secondary-yellow-100 px-3 py-2 transition duration-200 w-full text-center">RECITAZIONE</a>
                         <a href="/it/musica/"
                             class="block text-off-white hover:text-secondary-yellow-100 px-3 py-2 transition duration-200 w-full text-center">MUSICA</a>
-                        <a href="/it/progetti/jalta,jalta"
+                        <a href="/it/progetti/jalta,jalta/"
                             class="block text-off-white hover:text-secondary-yellow-100 px-3 py-2 transition duration-200 w-full text-center">PROGETTO:
                             Jalta, Jalta</a>
                         <a href="/it/progetti/le-migliori-barzellette-sulle-bionde/"
@@ -107,14 +117,14 @@
             </div>
         </div>
     </header>
-    <main>
+    <main id="main-content">
         <section>
             <div
                 class="bg-[url('/assets/img/contact.webp')] h-[50svh] lg:h-[30rem] bg-cover bg-top bg-no-repeat relative z-0">
                 <div class="absolute inset-0 bg-black/30"></div>
                 <div class="relative max-w-7xl mx-auto px-5 2xl:px-0">
                     <span class="h1-decoration">CONTATTI</span>
-                    <h1 class="relative pt-40">CONTATTI</h1>
+                    <h1 class="relative pt-40">CONTATTI<span class="sr-only"> – Leonora Surian Popov</span></h1>
                 </div>
             </div>
         </section>
@@ -193,7 +203,7 @@
                 <p>LEONORA SURIAN POPOV</p>
                 <div class="border-b border-off-white w-40"></div>
                 <div class="flex gap-5 pt-5">
-                    <a href="https://www.instagram.com/leonorasurian/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/insta.svg"
+                    <a href="https://www.instagram.com/leonorasurian/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/img/insta.svg"
                             alt="logo Instagram" class="size-6 fill-off-white hover:fill-secondary-yellow-100"></a>
                     <a href="https://www.facebook.com/people/Leonora-Surian-Popov/pfbid027JkLcD8RR683jh9dVBep4eYKDx2UzsZZ1eqsusnSkpjZ5vY42wGbiswkh2Jq6VXrl/" target="_blank" rel="noopener noreferrer"><img
                             src="/assets/img/face.svg" alt="logo Facebook"

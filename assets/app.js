@@ -1,29 +1,32 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const modals = Array.from({ length: 10 }, (_, i) => {
-    const index = i + 1;
-    return {
-      openButton: `openModal${index}`,
-      modal: `modal${index}`,
-      closeButton: `closeModal${index}`,
-    };
-  });
+  const openButtons = document.querySelectorAll('[id^="openModal"]');
 
-  modals.forEach(({ openButton, modal, closeButton }) => {
-    const openBtn = document.getElementById(openButton);
-    const modalEl = document.getElementById(modal);
-    const closeBtn = document.getElementById(closeButton);
+  openButtons.forEach((openBtn) => {
+    const index = openBtn.id.replace("openModal", "");
+    const modalEl = document.getElementById(`modal${index}`);
+    const closeBtn = document.getElementById(`closeModal${index}`);
+
+    if (!modalEl || !closeBtn) return;
+
+    const closeModal = () => {
+      modalEl.classList.add("hidden");
+      openBtn.focus();
+    };
 
     openBtn.addEventListener("click", () => {
       modalEl.classList.remove("hidden");
+      closeBtn.focus();
     });
 
-    closeBtn.addEventListener("click", () => {
-      modalEl.classList.add("hidden");
+    closeBtn.addEventListener("click", closeModal);
+
+    modalEl.addEventListener("click", (event) => {
+      if (event.target === modalEl) closeModal();
     });
 
-    window.addEventListener("click", (event) => {
-      if (event.target === modalEl) {
-        modalEl.classList.add("hidden");
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !modalEl.classList.contains("hidden")) {
+        closeModal();
       }
     });
   });
